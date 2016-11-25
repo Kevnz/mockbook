@@ -1,0 +1,28 @@
+{
+  "name": "mockbook",
+  "version": "0.0.1",
+  "description": "Mock Facebook API responses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Kevnz/mockbook.git"
+  },
+  "keywords": [
+    "mock",
+    "testing",
+    "facebook"
+  ],
+  "author": "Kevin Isom <kevin.isom@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kevnz/mockbook/issues"
+  },
+  "homepage": "https://github.com/Kevnz/mockbook#readme",
+  "dependencies": {
+    "faker": "^3.1.0",
+    "restify": "^4.3.0"
+  }
+}
