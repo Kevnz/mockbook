@@ -25,7 +25,9 @@
   "homepage": "https://github.com/Kevnz/mockbook#readme",
   "dependencies": {
     "faker": "^3.1.0",
-    "restify": "^4.3.0"
+    "json-schema-faker": "^0.5.0-rc6",
+    "restify": "^4.3.0",
+    "xml2js": "^0.4.17"
   },
   "devDependencies": {
     "eslint": "^3.19.0",
@@ -34,6 +36,7 @@
     "eslint-plugin-jsx-a11y": "^5.0.3",
     "eslint-plugin-react": "^7.1.0",
     "fb": "^1.1.1",
-    "fuxor": "^1.0.1"
+    "fuxor": "^1.0.1",
+    "xsd2jsonschema": "0.0.4"
   }
 }
