@@ -4,7 +4,9 @@
   "description": "Mock Facebook API responses",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node ./index",
+    "lint": "lint ./"
   },
   "repository": {
     "type": "git",
@@ -24,5 +26,14 @@
   "dependencies": {
     "faker": "^3.1.0",
     "restify": "^4.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-import": "^2.6.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.1.0",
+    "fb": "^1.1.1",
+    "fuxor": "^1.0.1"
   }
 }

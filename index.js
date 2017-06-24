@@ -8,8 +8,8 @@ server.use(restify.acceptParser(server.acceptable));
 server.use(restify.queryParser());
 server.use(restify.bodyParser());
 
-server.get('*', function (req, res, next) {
-  res.send(req.params);
+server.get(/^\/([a-zA-Z0-9_\.~-]+)\/(.*)/, function (req, res, next) {
+  res.send({ success:true });
   return next();
 });
 
